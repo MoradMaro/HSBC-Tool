@@ -1,6 +1,5 @@
 from calendar import c
 from errno import ENOMSG
-from tkinter import E
 from zlib import DEF_BUF_SIZE
 import streamlit as st
 from sqlalchemy import create_engine, text
@@ -1337,4 +1336,5 @@ def style_worksheet(worksheet):
     apply_red_font_for_negatives(worksheet)
     # writer.close()
     # return output.getvalue()
+
 
